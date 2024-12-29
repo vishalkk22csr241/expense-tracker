@@ -11,7 +11,7 @@ const AddExpenseOrEarning = () => {
   const [error, setError] = useState('');
   const [formErrors, setFormErrors] = useState({});
   const [successPopup, setSuccessPopup] = useState(false); // Popup state
-  const [action,setaction] = useState(false);
+  
   // Expense and Earning categories
   const expenseCategories = ['Food', 'Transport', 'Entertainment', 'Health', 'Other', 'Travel'];
   const earningCategories = ['Salary', 'Other'];
